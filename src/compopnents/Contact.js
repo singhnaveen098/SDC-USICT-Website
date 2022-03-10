@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
 
         <div className='text-center'>
-          <button className="text-black px-8 font-bold py-2 my-2 rounded-xl bg-gray-500 hover:bg-gray-400" type="submit">Submit</button>
+          <button className="text-black px-8 font-bold py-2 my-2 rounded-xl bg-blue-500 hover:bg-blue-400" type="submit">Submit</button>
         </div>
       </form>
     </div>

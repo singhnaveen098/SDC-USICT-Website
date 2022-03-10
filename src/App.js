@@ -14,10 +14,10 @@ import Foot from './compopnents/Foot';
 
 function App() {
   return (
-    <div>
+    <div className='min-h-screen relative'>
       <Router>
         <Navbar />
-        <div className="container-fluid">
+        <div className="container-fluid pb-32">
           <Switch>
             <Route exact path="/">
               <Home />

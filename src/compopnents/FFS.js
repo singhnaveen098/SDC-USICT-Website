@@ -11,10 +11,10 @@ const FFS = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#afb9c5', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #afb9c5' }}
+            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="21-26 Dec 2021"
-            iconStyle={{ background: '#afb9c5', color: '#fff' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaStar />}
           >
             <p>
@@ -23,10 +23,10 @@ const FFS = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#afb9c5', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #afb9c5' }}
+            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="14-24 Jan 2022"
-            iconStyle={{ background: '#afb9c5', color: '#fff' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaStar />}
           >
             <p>
@@ -35,10 +35,10 @@ const FFS = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#afb9c5', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #afb9c5' }}
+            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="25 Jan 2022"
-            iconStyle={{ background: '#afb9c5', color: '#fff' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FaStar />}
           >
             <p>

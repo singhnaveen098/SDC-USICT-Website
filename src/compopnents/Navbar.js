@@ -6,9 +6,9 @@ const Navbar = () => {
   let location = useLocation();
   return (
     <div>
-      <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-gradient-to-r from-gray-500 to-gray-900">
+      <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-gradient-to-r from-blue-900 to-blue-500">
         <div className="container-fluid">
-          <Link className="navbar-brand flex flex-row items-center font-extrabold" to="/"><img className='w-9 mx-2' src={logo} alt="SDC_Logo" /> SDC-USICT</Link>
+          <Link className="mr-2 flex flex-row items-center font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-amber-300 hover:text-transparent" to="/"><img className='w-9 mx-2' src={logo} alt="SDC_Logo" /> SDC-USICT</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
