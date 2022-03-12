@@ -11,7 +11,7 @@ import toyeesh from '../images/toyeesh.jpeg'
 import manik from '../images/manik.jpeg'
 const Teams = () => {
   return (
-    <div className='bg-black text-white rounded-xl shadow-2xl w-11/12 mx-auto mt-32 mb-16'>
+    <div className='bg-cyan-200 text-black rounded-xl shadow-2xl w-11/12 mx-auto mt-32 mb-16'>
       {/* Faculty */}
       <div>
         <h1 className='text-center py-10 font-bold text-3xl'>FACULTY MEMBERS</h1>
@@ -36,7 +36,7 @@ const Teams = () => {
         <h1 className='py-10 font-bold text-3xl'>TEAMS AND PROJECTS</h1>
         <div className="flex flex-col items-center justify-center py-4 mx-auto">
           <img src={himesh} className="w-4/12 md:w-3/12 h-3/12 rounded-full mx-2" alt="himesh" />
-          <p class="text-amber-300 font-bold text-2xl my-2">Himesh Nayak - SDC Lead</p>
+          <p class="text-amber-500 font-bold text-2xl my-2">Himesh Nayak - SDC Lead</p>
           <p>Full Stack Web / App Developer</p>
           <div className='my-2'>
             <a className='mx-2 hover:text-gray-400' href="https://www.linkedin.com/in/himeshnayak015/" target="_blank"><i
@@ -53,7 +53,7 @@ const Teams = () => {
           <div className='flex flex-row flex-wrap justify-center'>
             <div className="flex flex-col items-center justify-start py-4 w-7/12 md:w-4/12">
               <img src={shubham} className="w-6/12 h-6/12 rounded-full mx-2" alt="shubham" />
-              <p class="text-amber-300 font-bold text-2xl my-2">Shubham Goyal</p>
+              <p class="text-amber-500 font-bold text-2xl my-2">Shubham Goyal</p>
               <p>Full Stack Web Developer, C/C++</p>
               <div className='my-2'>
                 <a className='mx-2 hover:text-gray-400' href="https://www.linkedin.com/in/shubham-goyal-7987461b8/" target="_blank"><i
@@ -65,7 +65,7 @@ const Teams = () => {
 
             <div className="flex flex-col items-center justify-start py-4 w-7/12 md:w-4/12">
               <img src={jatin} className="w-7/12 h-7/12 rounded-full mx-2" alt="jatin" />
-              <p class="text-amber-300 font-bold text-2xl my-2">Jatin Singh</p>
+              <p class="text-amber-500 font-bold text-2xl my-2">Jatin Singh</p>
               <p>Web Developer, C/C++, Python, Problem Solving</p>
               <div className='my-2'>
                 <a className='mx-2 hover:text-gray-400' href="https://www.linkedin.com/in/jatin-singh-916159206/" target="_blank"><i
@@ -77,7 +77,7 @@ const Teams = () => {
 
             <div className="flex flex-col items-center justify-start py-4 w-7/12 md:w-4/12">
               <img src={harshit} className="w-6/12 h-6/12 rounded-full mx-2" alt="harshit" />
-              <p class="text-amber-300 font-bold text-2xl my-2">Harshit Panwar</p>
+              <p class="text-amber-500 font-bold text-2xl my-2">Harshit Panwar</p>
               <p>Front End Developer, C, Java, Python</p>
               <div className='my-2'>
                 <a className='mx-2 hover:text-gray-400' href="https://www.linkedin.com/in/harshitpanwar7/" target="_blank"><i
@@ -96,7 +96,7 @@ const Teams = () => {
           <div className='flex flex-row flex-wrap justify-center'>
             <div className="flex flex-col items-center justify-start py-4 w-7/12 md:w-4/12">
               <img src={anurag} className="w-6/12 h-6/12 rounded-full mx-2" alt="anurag" />
-              <p class="text-amber-300 font-bold text-2xl my-2">Anurag Parashar</p>
+              <p class="text-amber-500 font-bold text-2xl my-2">Anurag Parashar</p>
               <p>Full Stack Web Developer</p>
               <div className='my-2'>
                 <a className='mx-2 hover:text-gray-400' href="https://www.linkedin.com/in/anurag-parashar/" target="_blank"><i
@@ -108,7 +108,7 @@ const Teams = () => {
 
             <div className="flex flex-col items-center justify-start py-4 w-7/12 md:w-4/12">
               <img src={toyeesh} className="w-6/12 h-6/12 rounded-full mx-2" alt="toyeesh" />
-              <p class="text-amber-300 font-bold text-2xl my-2">Toyeesh Sinha</p>
+              <p class="text-amber-500 font-bold text-2xl my-2">Toyeesh Sinha</p>
               <p>Full Stack Web Developer</p>
               <div className='my-2'>
                 <a className='mx-2 hover:text-gray-400' href="https://www.linkedin.com/in/toyeesh-sinha/" target="_blank"><i
@@ -120,7 +120,7 @@ const Teams = () => {
 
             <div className="flex flex-col items-center justify-start py-4 w-7/12 md:w-4/12">
               <img src={manik} className="w-6/12 h-6/12 rounded-full mx-2" alt="manik" />
-              <p class="text-amber-300 font-bold text-2xl my-2">Manik Agarwaal</p>
+              <p class="text-amber-500 font-bold text-2xl my-2">Manik Agarwaal</p>
               <p>Full Stack Web Developer</p>
               <div className='my-2'>
                 <a className='mx-2 hover:text-gray-400' href="https://www.linkedin.com/in/manik-aggarwal-640110188/" target="_blank"><i

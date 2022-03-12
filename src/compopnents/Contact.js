@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='bg-black text-white rounded-xl shadow-2xl w-11/12 mx-auto mt-32 mb-16'>
+    <div className='bg-cyan-200 text-black rounded-xl shadow-2xl w-11/12 mx-auto mt-32 mb-16'>
       <h1 className='text-center py-4 font-bold text-3xl'>Contact Us</h1>
       <form
         action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeI2emslmQ2GNQuJRKop6Gglw6SAriGwfMqgQybn_CiqRJtZw/formResponse"
