@@ -4,8 +4,8 @@ import { FaWindowClose } from "react-icons/fa";
 
 const Contact = (props) => {
   return (
-    <div className={`flex bg-[#d3d3d380] fixed top-0 bottom-0 right-0 left-0 items-center justify-center z-[10000] ${props.show ? 'block':'hidden'}`}>
-      <div className='flex flex-row w-3/4 h-1/2 md:w-5/6 lg:w-3/4 lg:h-4/6 max-w-screen-xl mt-4 bg-white rounded-xl justify-around items-center relative'>
+    <div className={`flex bg-[#d3d3d380] fixed top-0 bottom-0 right-0 left-0 items-center justify-center z-[10000] overflow-y-scroll ${props.show ? 'block':'hidden'}`}>
+      <div className='flex flex-row min-h-[450px] w-3/4 h-1/2 md:w-5/6 lg:w-3/4 lg:h-4/6 max-w-screen-xl mt-4 bg-white rounded-xl justify-around items-center relative'>
         <FaWindowClose className='absolute right-4 top-4 cursor-pointer' size={32} onClick={props.cclick}/>
         <img className='w-full max-h-full max-w-md aspect-square hidden md:block' src={software} alt="software" />
         <div className='text-black w-3/4 md:w-2/4'>
