@@ -6,7 +6,7 @@ import bgimg from '../images/ffsbg.jpg'
 
 const FFS = () => {
   return (
-    <div style={{backgroundImage: `url(${bgimg})`}} className={`bg-cover bg-center bg-no-repeat text-white rounded-xl shadow-2xl w-11/12 mx-auto mt-32 mb-16`}>
+    <div style={{backgroundImage: `url(${bgimg})`, backgroundSize: '100% 100%'}} className={`bg-cover bg-center bg-no-repeat text-white rounded-xl shadow-2xl w-11/12 mx-auto mt-32 mb-16`}>
       <h1 className='text-center py-10 font-bold text-3xl'>FFS 2021 Odd Semester</h1>
       <div className='py-12'>
         <VerticalTimeline>
