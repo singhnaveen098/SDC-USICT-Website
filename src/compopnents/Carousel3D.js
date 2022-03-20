@@ -28,21 +28,17 @@ const Carousel3D = (props) => {
 
     //Extracting Valid paramters for custom styling;
     const ContainerStyle = {
-        width: props.ContainerStyle.Width || "100%",
-        height: props.ContainerStyle.Height || "100%",
-        backgroundColor: props.ContainerStyle.BackgroundColor || "",
-        background: props.ContainerStyle.Background || "null",
-        padding: props.ContainerStyle.Padding || "0",
-        margin: props.ContainerStyle.Margin || "0",
+        Width: "100%",
+        Height: "100%",
+        Padding: "0.5rem 0.25rem",
+        BackgroundColor: "#fff"
     };
 
     const CardStyle = {
-        width: props.CardStyle.Width || "none",
-        height: props.CardStyle.Height || "none",
-        backgroundColor: props.CardStyle.BackgroundColor || "",
-        background: props.CardStyle.Background || "null",
-        aspectRatio: props.CardStyle.AspectRatio || "none",
-        padding: props.CardStyle.Padding || "0",
+        Width: "100%",
+        Height: "100%",
+        Padding: "0.25em",
+        BackgroundColor: "#fff"
     };
 
     //initializing state according to the length of props
