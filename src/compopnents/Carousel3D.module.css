@@ -75,48 +75,56 @@
   transform: translateX(-60%) scale(0.6);
   z-index: 2;
   opacity: 0.95;
+  filter: blur(4px);
 }
 
 .Card.prevImg2 {
   transform: translateX(-90%) scale(0.4);
   z-index: 1;
   opacity: 0.8;
+  filter: blur(4px);
 }
 
 .Card.prevImg3 {
   transform: translateX(90%) scale(0.4);
   z-index: 1;
   opacity: 0.8;
+  filter: blur(4px);
 }
 
 .Card.prevImg4 {
   transform: translateX(60%) scale(0.6);
   z-index: 2;
   opacity: 0.95;
+  filter: blur(4px);
 }
 
 .Card.nextImg1 {
   transform: translateX(60%) scale(0.6);
   z-index: 2;
   opacity: 0.95;
+  filter: blur(4px);
 }
 
 .Card.nextImg2 {
   transform: translateX(90%) scale(0.4);
   z-index: 1;
   opacity: 0.8;
+  filter: blur(4px);
 }
 
 .Card.nextImg3 {
   transform: translateX(-90%) scale(0.4);
   z-index: 1;
   opacity: 0.95;
+  filter: blur(4px);
 }
 
 .Card.nextImg4 {
   transform: translateX(-60%) scale(0.6);
   z-index: 2;
   opacity: 0.95;
+  filter: blur(4px);
 }
 
 .showDots {
